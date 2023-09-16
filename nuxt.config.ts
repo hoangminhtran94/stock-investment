@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { existsSync, readFileSync } from "node:fs";
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  // devtools: { enabled: true },
   vite: {
     vue: {
       script: {

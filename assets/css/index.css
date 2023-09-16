@@ -31,6 +31,9 @@
 }
 @layer components {
     .home-bg {
-        @apply bg-[url("/assets/images/home-bg.avif")] bg-center  bg-no-repeat bg-cover
+        @apply bg-[url("/assets/images/home-bg.avif")] bg-center  bg-no-repeat bg-cover 
+    }
+    .home-second-banner {
+        @apply bg-[url("/assets/images/home-second-banner.webp")] bg-center  bg-no-repeat bg-cover 
     }
 }

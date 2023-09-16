@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <nav class="py-2 sticky top-0 shadow-sm border-b text-xs font-semibold">
+  <nav
+    class="py-2 sticky top-0 shadow-sm border-b text-xs font-semibold z-10 bg-white"
+  >
     <div
       class="aboslute top-0 right-0 left-0 w-full h-full -z-10 blur-md"
     ></div>
