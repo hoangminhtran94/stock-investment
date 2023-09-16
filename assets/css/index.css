@@ -36,4 +36,7 @@
     .home-second-banner {
         @apply bg-[url("/assets/images/home-second-banner.webp")] bg-center  bg-no-repeat bg-cover 
     }
+    .home-third-banner {
+        @apply bg-[url("/assets/images/third-section-bg.png")] bg-center  bg-no-repeat bg-cover 
+    }
 }
