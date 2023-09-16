@@ -1,7 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <Navbar />
-
-  <slot></slot>
+  <div>invesments</div>
 </template>

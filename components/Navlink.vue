@@ -6,8 +6,8 @@ const props = defineProps<NuxtLinkProps>();
 
 <template>
   <NuxtLink
-    active-class=" outline outline-1 outline-green-500"
-    class="p-2 hover:scale-105 rounded transition-all"
+    active-class=" text-green-600 "
+    class="p-2 hover:scale-105 rounded transition-all h-fit"
     :to="props.to"
     ><slot></slot
   ></NuxtLink>

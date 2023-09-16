@@ -8,6 +8,7 @@ export default <Partial<Config>> {
     "./nuxt.config.{js,ts}",
     'docs/content/**/*.md'
   ],
+
   theme: {
     extend: {},
   },

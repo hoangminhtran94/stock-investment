@@ -16,6 +16,9 @@ export default defineNuxtConfig({
       },
     },
   },
+  css:[
+    '~/assets/css/index.css'
+  ],
   modules: ['@nuxt/ui'],
   ui: {
     primary: 'green',

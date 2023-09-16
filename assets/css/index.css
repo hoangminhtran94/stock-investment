@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-5xl font-extrabold dark:text-white;
+    }
+    h2 {
+        @apply text-4xl font-bold dark:text-white;
+    }
+    h3 {
+        @apply text-3xl font-bold dark:text-white
+    }
+    h4 {
+        @apply text-2xl font-bold dark:text-white;
+    }
+    h5 {
+        @apply text-xl font-bold dark:text-white;
+    }
+    h6 {
+        @apply text-lg font-bold dark:text-white;
+    }
+    p {
+        @apply text-gray-500 dark:text-gray-400
+    }
+    blockquote {
+        @apply text-xl italic font-semibold text-gray-900 dark:text-white;
+    }
+
+}
+@layer components {
+    .home-bg {
+        @apply bg-[url("/assets/images/home-bg.avif")] bg-center  bg-no-repeat bg-cover
+    }
+}
