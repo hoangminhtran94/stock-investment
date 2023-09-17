@@ -17,6 +17,8 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@nuxt/ui": "^2.8.1"
+    "@nuxt/ui": "^2.8.1",
+    "chart.js": "^4.4.0",
+    "vue-chartjs": "^5.2.0"
   }
 }
